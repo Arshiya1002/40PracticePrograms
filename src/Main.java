@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Hello world!");
         try {
             if(true) {
-                UserNotFound userNotFoundEx = new UserNotFound("Throwing Error...");
+                UserNotFound userNotFoundEx = new UserNotFound("Throwing Error......");
                 throw userNotFoundEx;
             }if(true){
                 ApiException userNotFoundEx = new ApiException("Throwing Error");
